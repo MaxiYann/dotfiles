@@ -73,3 +73,7 @@ export PYTHONBREAKPOINT=ipdb.set_trace
 sudo /etc/init.d/postgresql start
 
 echo "Hello $USER, welcome to ZSH !"
+
+alias uwupp='cd ~/.local/bin'
+alias MaxiYann='cd ~/code/MaxiYann'
+alias uwuexe='./UwUpp-exe /home/emile/code/MaxiYann/uwupp/UwUpp/examples/hello.uwu'
