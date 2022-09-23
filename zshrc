@@ -76,4 +76,5 @@ echo "Hello $USER, welcome to ZSH !"
 
 alias uwupp='cd ~/.local/bin'
 alias MaxiYann='cd ~/code/MaxiYann'
-alias uwuexe='./UwUpp-exe /home/emile/code/MaxiYann/uwupp/UwUpp/examples/hello.uwu'
+alias uwuexe='(){ ./UwUpp-exe /home/emile/code/MaxiYann/UwUpp/examples/$1 }'
+[ -f "/home/emile/.ghcup/env" ] && source "/home/emile/.ghcup/env" # ghcup-env
